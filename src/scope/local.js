@@ -12,7 +12,7 @@ var scope = 'soy global';
 
 const functionScope = () => {
     //creamos una variable con el mismo nombre de la variable local
-    //pero en este caso se crea una variable local pues esta no esta reasignada
+    //pero en este caso se crea una variable local pues esta no esta redeclarada
     var scope = 'soy local'
     const func = () => {
         return scope
